@@ -11,7 +11,7 @@ NOTE : Please check wheter file robosoft.lib is pested into your current project
 
 /*************************************************************/
 unsigned char IR_REMOTE(void);
-//IR_REMOTE function returns values from 0 to 16 
+//IR_REMOTE function returns values from 0 to 16
 //if 0 then no key is pressed
 //if any other key
 //then those keys are defined at end of this file
@@ -22,10 +22,9 @@ void Remote_Init(void);
 void Servo_Init(void);
 //This function has to be called at begining of program so that servo motor can work
 
-void Servo_Control(unsigned char Servo_No,unsigned char Angle);
-//this function drives servo motors 
+void Servo_Control(unsigned char Servo_No, unsigned char Angle);
+//this function drives servo motors
 //user has to pass servo number and its angle
-
 
 //here is a defination of each key of remote
 
@@ -48,4 +47,3 @@ void Servo_Control(unsigned char Servo_No,unsigned char Angle);
 #define STOP 16
 #define PW 17
 #define MD 18
-

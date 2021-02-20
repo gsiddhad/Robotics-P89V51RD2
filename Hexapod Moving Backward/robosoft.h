@@ -4,7 +4,7 @@ void Remote_Init(void);
 
 void Servo_Init(void);
 
-void Servo_Control(unsigned char Servo_No,unsigned char Angle);
+void Servo_Control(unsigned char Servo_No, unsigned char Angle);
 
 #define NUM_1 1
 #define NUM_2 2
@@ -25,4 +25,3 @@ void Servo_Control(unsigned char Servo_No,unsigned char Angle);
 #define STOP 16
 #define PW 17
 #define MD 18
-
